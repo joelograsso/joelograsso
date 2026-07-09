@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Joe LoGrasso — software engineer and product builder" />
+  <img src="./assets/hero.svg" width="100%" alt="Joe LoGrasso — GitHub projects, contributions, and technical expertise" />
 </p>
 
 <p align="center">
@@ -12,7 +12,6 @@
 
 <p align="center">
   <a href="https://github.com/joelograsso?tab=followers"><img src="https://img.shields.io/github/followers/joelograsso?label=Follow&style=flat-square&logo=github&color=38BDF8&labelColor=020617" alt="GitHub followers" /></a>
-  <a href="https://www.linkedin.com/in/joe-lograsso-79a644186/"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect with Joe on LinkedIn" /></a>
   <img src="https://komarev.com/ghpvc/?username=joelograsso&style=flat-square&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile views" />
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fjoelograsso&query=%24.public_repos&suffix=%20public&label=REPOS&style=flat-square&logo=github&color=8B5CF6&labelColor=020617" alt="Public repository count" />
 </p>
@@ -22,12 +21,12 @@
 <!-- Animated source recovered from the supplied still: https://tenor.com/view/typing-cat-gif-21351970 -->
 <img align="right" width="190" src="./assets/typing-cat.gif" alt="A gray cat typing enthusiastically on a laptop" title="Live footage from the product lab" />
 
-I'm **Joe LoGrasso**, a software engineer at **Kigo** in Salt Lake City. I build mobile, AI, blockchain, and full-stack products end to end—from the first product sketch and polished interface to the APIs, data, and infrastructure underneath.
+I'm **Joe LoGrasso**—a builder who likes turning ambitious ideas into working products. This profile is a living build log for my public repositories, current experiments, open-source contributions, and the technologies I learn along the way.
 
-- 🎓 **University of Michigan** — BSE in Computer Science, minor in Applied Statistics
+- 🔭 Current experiments span mobile apps, applied AI, creative audio, games, finance, and local-first software
 - 🧬 Co-author of the 2024 [OmicNavigator paper](https://link.springer.com/article/10.1186/s12859-024-05743-4) in *BMC Bioinformatics*
-- 🛠️ Happiest when one project makes me think about product design, systems, data, and pixels at the same time
-- 💬 Ask me about React Native, TypeScript, product engineering, Rust, or why streaks are overrated
+- 🛠️ Strongest when a project spans product design, polished interfaces, APIs, data, and infrastructure
+- 💬 Deep-diving into React Native, TypeScript, Rust, Web Audio, computer vision, and deterministic AI guardrails
 
 <br clear="right" />
 
@@ -36,6 +35,38 @@ current_mode  = shipping apps people actually use
 favorite_path = idea → prototype → resilient system → delightful product
 curious_about = local-first software, applied AI, creative computing, human behavior
 ```
+
+## `> gh stats --live` 📈
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joelograsso&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joelograsso&theme=default" />
+    <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joelograsso&theme=github_dark" alt="Joe's GitHub contribution profile" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joelograsso&theme=github_dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joelograsso&theme=default" />
+    <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joelograsso&theme=github_dark" alt="Joe's live GitHub statistics" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=020617&color=94A3B8&line=38BDF8&point=A78BFA&area=true&area_color=0C4A6E&border_color=1E293B&radius=16" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=F8FAFC&color=334155&line=0284C7&point=7C3AED&area=true&area_color=BAE6FD&border_color=CBD5E1&radius=16" />
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=020617&color=94A3B8&line=38BDF8&point=A78BFA&area=true&area_color=0C4A6E&border_color=1E293B&radius=16" alt="Joe's GitHub contribution activity graph" />
+  </picture>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joelograsso/joelograsso/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joelograsso/joelograsso/output/github-contribution-grid-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/joelograsso/joelograsso/output/github-contribution-grid-snake.svg" alt="Animated snake moving through Joe's GitHub contributions" />
+</picture>
 
 ## `> ls ./workbench` 🔭
 
@@ -52,7 +83,7 @@ curious_about = local-first software, applied AI, creative computing, human beha
 
 ### Open-source signal 📡
 
-At AbbVie, I added Plotly support to [OmicNavigator](https://github.com/abbvie-external/OmicNavigator/pull/9) and its [example study](https://github.com/abbvie-external/OmicNavigatorExample/pull/1). Both contributions were merged, and that work grew into a co-authorship on the project's peer-reviewed paper.
+I added Plotly support to [OmicNavigator](https://github.com/abbvie-external/OmicNavigator/pull/9) and its [example study](https://github.com/abbvie-external/OmicNavigatorExample/pull/1). Both contributions were merged, and that work grew into a co-authorship on the project's peer-reviewed paper.
 
 ## `> cat stack.json` 🧰
 
@@ -97,56 +128,24 @@ At AbbVie, I added Plotly support to [OmicNavigator](https://github.com/abbvie-e
   <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini" />
 </p>
 
-## `> git log --oneline --reverse` 🧭
+## `> git log --project-history --reverse` 🧭
 
-| When | The commit that changed the direction |
+| When | How the stack evolved |
 | --- | --- |
-| **2019–20** | Wrote my first public Python projects at Google CSSI, then transferred to Michigan to study computer science. |
-| **2021** | Joined AbbVie's OmicNavigator team—R, data visualization, and automating the path from ~20 studies to 120+. |
-| **2022** | Built a Java/Spring Boot/React diagnostics tool end to end during a Goldman Sachs software engineering internship. |
-| **2023–25** | Graduated from Michigan, moved into liquidity-risk analytics at Goldman, cut Python runtime by 50%+, and took Tableau reports from 10+ minutes to under one. |
-| **2024** | Co-authored the peer-reviewed OmicNavigator paper and went deeper on modern React product development. |
-| **2025 → now** | Joined Kigo and shifted into builder-lab mode: mobile products, applied AI, creative audio, games, Rust, and full-stack systems. |
-
-## `> gh stats --live` 📈
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joelograsso&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joelograsso&theme=default" />
-    <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=joelograsso&theme=github_dark" alt="Joe's GitHub contribution profile" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joelograsso&theme=github_dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joelograsso&theme=default" />
-    <img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=joelograsso&theme=github_dark" alt="Joe's live GitHub statistics" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=020617&color=94A3B8&line=38BDF8&point=A78BFA&area=true&area_color=0C4A6E&border_color=1E293B&radius=16" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=F8FAFC&color=334155&line=0284C7&point=7C3AED&area=true&area_color=BAE6FD&border_color=CBD5E1&radius=16" />
-    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=020617&color=94A3B8&line=38BDF8&point=A78BFA&area=true&area_color=0C4A6E&border_color=1E293B&radius=16" alt="Joe's GitHub contribution activity graph" />
-  </picture>
-</p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/joelograsso/joelograsso/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/joelograsso/joelograsso/output/github-contribution-grid-snake.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/joelograsso/joelograsso/output/github-contribution-grid-snake.svg" alt="Animated snake moving through Joe's GitHub contributions" />
-</picture>
+| **2019–20** | Started with Python, algorithms, data structures, and small public experiments. |
+| **2021** | Moved into R, interactive data visualization, Plotly, reusable data models, and open-source contribution. |
+| **2022** | Built full-stack systems with Java, Spring Boot, React, REST APIs, and MongoDB. |
+| **2023–24** | Expanded from HTML/CSS/JavaScript into modern React products, Python automation, analytics, and published open-source work. |
+| **2025** | Went deeper on TypeScript, PostgreSQL, Docker, Rust/Axum, and Solana while building the NFTix platform. |
+| **2026 → now** | Running a broad product lab across Expo, Supabase, applied AI, Web Audio, Unity, computer vision, and local-first data. |
 
 ## `> cat /etc/personality` 🌎
 
 When I'm away from a keyboard: **hockey** 🏒 · **hiking** 🥾 · **skiing** ⛷️ · **football** 🏈 · **golf** ⛳ · **travel** ✈️ · **astronomy** 🔭
 
 <p align="center">
-  <strong>Have an idea with a weird edge case and a real user behind it?</strong><br />
-  <a href="https://www.linkedin.com/in/joe-lograsso-79a644186/">Let's build something thoughtful.</a>
+  <strong>Build → measure → learn → repeat.</strong><br />
+  <a href="https://github.com/joelograsso?tab=repositories">Explore the repositories and follow the next experiment.</a>
 </p>
 
 <p align="center"><sub>Designed with curiosity, caffeine, and a suspicious number of side projects.</sub></p>
