@@ -3,26 +3,39 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/joelograsso?tab=followers"><img src="https://img.shields.io/github/followers/joelograsso?label=Follow&style=flat-square&logo=github&color=22D3EE&labelColor=0D1117" alt="GitHub followers" /></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Geist&amp;weight=700&amp;size=30&amp;duration=2800&amp;pause=1800&amp;color=67E8F9&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=60&amp;lines=I+build+apps+people+actually+use.;I+build+mobile+experiences.;I+build+full-stack+tools.;I+build+blockchain+apps." />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Geist&amp;weight=700&amp;size=30&amp;duration=2800&amp;pause=1800&amp;color=0369A1&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=60&amp;lines=I+build+apps+people+actually+use.;I+build+mobile+experiences.;I+build+full-stack+tools.;I+build+blockchain+apps." />
+    <img width="100%" src="https://readme-typing-svg.demolab.com?font=Geist&amp;weight=700&amp;size=30&amp;duration=2800&amp;pause=1800&amp;color=0369A1&amp;background=00000000&amp;center=true&amp;vCenter=true&amp;width=820&amp;height=60&amp;lines=I+build+apps+people+actually+use.;I+build+mobile+experiences.;I+build+full-stack+tools.;I+build+blockchain+apps." alt="Typing animation: I build apps people actually use, mobile experiences, full-stack tools, and blockchain apps." />
+  </picture>
+</p>
+
+<p align="center">
+  <a href="https://github.com/joelograsso?tab=followers"><img src="https://img.shields.io/github/followers/joelograsso?label=Follow&style=flat-square&logo=github&color=38BDF8&labelColor=020617" alt="GitHub followers" /></a>
   <a href="https://www.linkedin.com/in/joe-lograsso-79a644186/"><img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="Connect with Joe on LinkedIn" /></a>
-  <img src="https://komarev.com/ghpvc/?username=joelograsso&style=flat-square&color=84CC16&label=PROFILE+VIEWS" alt="Profile views" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fjoelograsso&query=%24.public_repos&suffix=%20public&label=REPOS&style=flat-square&logo=github&color=F97316&labelColor=0D1117" alt="Public repository count" />
+  <img src="https://komarev.com/ghpvc/?username=joelograsso&style=flat-square&color=0EA5E9&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fjoelograsso&query=%24.public_repos&suffix=%20public&label=REPOS&style=flat-square&logo=github&color=8B5CF6&labelColor=020617" alt="Public repository count" />
 </p>
 
 ## `> whoami` 👋
 
+<!-- Animated source recovered from the supplied still: https://tenor.com/view/typing-cat-gif-21351970 -->
+<img align="right" width="190" src="./assets/typing-cat.gif" alt="A gray cat typing enthusiastically on a laptop" title="Live footage from the product lab" />
+
 I'm **Joe LoGrasso**, a software engineer at **Kigo** in Salt Lake City. I build mobile, AI, blockchain, and full-stack products end to end—from the first product sketch and polished interface to the APIs, data, and infrastructure underneath.
+
+- 🎓 **University of Michigan** — BSE in Computer Science, minor in Applied Statistics
+- 🧬 Co-author of the 2024 [OmicNavigator paper](https://link.springer.com/article/10.1186/s12859-024-05743-4) in *BMC Bioinformatics*
+- 🛠️ Happiest when one project makes me think about product design, systems, data, and pixels at the same time
+- 💬 Ask me about React Native, TypeScript, product engineering, Rust, or why streaks are overrated
+
+<br clear="right" />
 
 ```text
 current_mode  = shipping apps people actually use
 favorite_path = idea → prototype → resilient system → delightful product
 curious_about = local-first software, applied AI, creative computing, human behavior
 ```
-
-- 🎓 **University of Michigan** — BSE in Computer Science, minor in Applied Statistics
-- 🧬 Co-author of the 2024 [OmicNavigator paper](https://link.springer.com/article/10.1186/s12859-024-05743-4) in *BMC Bioinformatics*
-- 🛠️ Happiest when one project makes me think about product design, systems, data, and pixels at the same time
-- 💬 Ask me about React Native, TypeScript, product engineering, Rust, or why streaks are overrated
 
 ## `> ls ./workbench` 🔭
 
@@ -115,9 +128,9 @@ At AbbVie, I added Plotly support to [OmicNavigator](https://github.com/abbvie-e
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=00000000&color=22D3EE&line=84CC16&point=F97316&area=true&area_color=164E63&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=00000000&color=0369A1&line=65A30D&point=EA580C&area=true&area_color=BAE6FD&hide_border=true" />
-    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=00000000&color=22D3EE&line=84CC16&point=F97316&area=true&area_color=164E63&hide_border=true" alt="Joe's GitHub contribution activity graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=020617&color=94A3B8&line=38BDF8&point=A78BFA&area=true&area_color=0C4A6E&border_color=1E293B&radius=16" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=F8FAFC&color=334155&line=0284C7&point=7C3AED&area=true&area_color=BAE6FD&border_color=CBD5E1&radius=16" />
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=joelograsso&bg_color=020617&color=94A3B8&line=38BDF8&point=A78BFA&area=true&area_color=0C4A6E&border_color=1E293B&radius=16" alt="Joe's GitHub contribution activity graph" />
   </picture>
 </p>
 

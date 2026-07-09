@@ -1,80 +1,124 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Joe LoGrasso</title>
-  <desc id="desc">Software engineer, product builder, and curious human. Ship end to end.</desc>
+  <desc id="desc">Software engineer and product builder. Mobile, AI, full stack, and creative code.</desc>
   <defs>
-    <linearGradient id="bg" x1="70" y1="24" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1220"/>
-      <stop offset="0.55" stop-color="#0D1B2A"/>
-      <stop offset="1" stop-color="#111827"/>
+    <linearGradient id="background" x1="40" y1="12" x2="1165" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.52" stop-color="#0A1628"/>
+      <stop offset="1" stop-color="#0C1F3A"/>
     </linearGradient>
-    <linearGradient id="signal" x1="130" y1="110" x2="770" y2="266" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.55" stop-color="#84CC16"/>
-      <stop offset="1" stop-color="#F97316"/>
+    <linearGradient id="accent" x1="64" y1="0" x2="710" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="0.54" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#38BDF8" stroke-opacity="0.075"/>
-    </pattern>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+    <radialGradient id="skyAurora">
+      <stop stop-color="#0EA5E9" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanAurora">
+      <stop stop-color="#22D3EE" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetAurora">
+      <stop stop-color="#8B5CF6" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <filter id="nodeGlow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <style>
+      .aurora-a { animation: drift-a 14s ease-in-out infinite; }
+      .aurora-b { animation: drift-b 18s ease-in-out infinite; }
+      .aurora-c { animation: drift-c 20s ease-in-out infinite; }
+      .star { animation: twinkle 3.8s ease-in-out infinite; }
+      .star-b { animation-delay: -1.3s; }
+      .star-c { animation-delay: -2.6s; }
+      @keyframes drift-a { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(48px,-28px) scale(1.14); } }
+      @keyframes drift-b { 0%,100% { transform: translate(0,0) scale(1.08); } 50% { transform: translate(-42px,28px) scale(.96); } }
+      @keyframes drift-c { 0%,100% { transform: translate(0,0) scale(.92); } 50% { transform: translate(32px,34px) scale(1.16); } }
+      @keyframes twinkle { 0%,100% { opacity: .28; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .aurora-a,.aurora-b,.aurora-c,.star { animation: none; }
+      }
+    </style>
   </defs>
 
-  <rect x="1" y="1" width="1198" height="358" rx="28" fill="url(#bg)" stroke="#26364D" stroke-width="2"/>
-  <rect x="1" y="1" width="1198" height="358" rx="28" fill="url(#grid)"/>
-  <circle cx="1028" cy="180" r="166" fill="#0EA5E9" fill-opacity="0.035"/>
-  <circle cx="1028" cy="180" r="118" stroke="#22D3EE" stroke-opacity="0.15" stroke-dasharray="6 10"/>
-  <circle cx="1028" cy="180" r="77" stroke="#84CC16" stroke-opacity="0.18"/>
-  <path d="M875 61C978 108 1069 73 1167 125" stroke="#F97316" stroke-opacity="0.16" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="358" rx="28" fill="url(#background)" stroke="#1E293B" stroke-width="2"/>
+  <g opacity="0.78" filter="url(#softGlow)">
+    <ellipse class="aurora-a" cx="154" cy="64" rx="250" ry="175" fill="url(#skyAurora)"/>
+    <ellipse class="aurora-b" cx="1092" cy="310" rx="240" ry="180" fill="url(#cyanAurora)"/>
+    <ellipse class="aurora-c" cx="678" cy="224" rx="220" ry="155" fill="url(#violetAurora)"/>
+  </g>
+
+  <g stroke="#38BDF8" stroke-width="1" stroke-opacity="0.14">
+    <path d="M34 94L148 48L263 94L375 43L478 109L594 61L706 113L817 58L914 107L1028 56L1164 102"/>
+    <path d="M83 270L186 232L304 286L416 235L526 292L645 239L751 283L861 230L976 275L1102 224"/>
+    <path d="M148 48L186 232M263 94L304 286M375 43L416 235M478 109L526 292M594 61L645 239M706 113L751 283M817 58L861 230M914 107L976 275M1028 56L1102 224"/>
+  </g>
+
+  <g fill="#67E8F9" filter="url(#nodeGlow)">
+    <circle class="star" cx="148" cy="48" r="2.4"/>
+    <circle class="star star-b" cx="263" cy="94" r="1.7"/>
+    <circle class="star star-c" cx="375" cy="43" r="2.1"/>
+    <circle class="star star-b" cx="478" cy="109" r="1.6"/>
+    <circle class="star" cx="594" cy="61" r="2.4"/>
+    <circle class="star star-c" cx="706" cy="113" r="1.8"/>
+    <circle class="star star-b" cx="817" cy="58" r="2.3"/>
+    <circle class="star" cx="914" cy="107" r="1.7"/>
+    <circle class="star star-c" cx="1028" cy="56" r="2.2"/>
+    <circle class="star star-b" cx="186" cy="232" r="1.8"/>
+    <circle class="star" cx="416" cy="235" r="2.2"/>
+    <circle class="star star-c" cx="645" cy="239" r="1.7"/>
+    <circle class="star star-b" cx="861" cy="230" r="2.3"/>
+    <circle class="star" cx="1102" cy="224" r="1.9"/>
+  </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <rect x="58" y="48" width="176" height="34" rx="17" fill="#101D2E" stroke="#26364D"/>
-    <circle cx="78" cy="65" r="5" fill="#84CC16" filter="url(#glow)"/>
-    <text x="92" y="71" fill="#9FB3C8" font-size="14" letter-spacing="1.5">JOE.OS / ONLINE</text>
+    <rect x="58" y="47" width="238" height="34" rx="17" fill="#0F172A" fill-opacity="0.72" stroke="#334155"/>
+    <circle cx="78" cy="64" r="5" fill="#67E8F9" filter="url(#nodeGlow)"/>
+    <text x="92" y="70" fill="#38BDF8" font-size="13" font-weight="700" letter-spacing="1.6">SOFTWARE ENGINEER @ KIGO</text>
 
-    <text x="58" y="152" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="66" font-weight="800" letter-spacing="-2">JOE LOGRASSO</text>
-    <rect x="58" y="173" width="640" height="5" rx="2.5" fill="url(#signal)"/>
-    <text x="58" y="218" fill="#B8C8D9" font-size="18" letter-spacing="3">SOFTWARE ENGINEER • PRODUCT BUILDER</text>
-    <text x="58" y="252" fill="#7890A8" font-size="15" letter-spacing="2">MOBILE / AI / FULL STACK / CREATIVE CODE</text>
+    <text x="58" y="153" fill="#FFFFFF" font-family="Geist, Inter, ui-sans-serif, system-ui, sans-serif" font-size="66" font-weight="800" letter-spacing="-2">JOE LOGRASSO</text>
+    <rect x="58" y="173" width="642" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="58" y="219" fill="#CBD5E1" font-size="18" letter-spacing="3">PRODUCT ENGINEERING, END TO END</text>
+    <text x="58" y="253" fill="#94A3B8" font-size="15" letter-spacing="2">MOBILE / AI / FULL STACK / CREATIVE CODE</text>
 
-    <text x="58" y="318" fill="#22D3EE" font-size="14">SLC</text>
-    <text x="101" y="318" fill="#526A82" font-size="14">//</text>
-    <text x="130" y="318" fill="#84CC16" font-size="14">SHIP END TO END</text>
-    <text x="270" y="318" fill="#526A82" font-size="14">//</text>
-    <text x="299" y="318" fill="#F97316" font-size="14">BUILDING IN PUBLIC SINCE 2019</text>
+    <text x="58" y="318" fill="#38BDF8" font-size="14">SALT LAKE CITY</text>
+    <text x="188" y="318" fill="#475569" font-size="14">//</text>
+    <text x="217" y="318" fill="#67E8F9" font-size="14">SHIP END TO END</text>
+    <text x="357" y="318" fill="#475569" font-size="14">//</text>
+    <text x="386" y="318" fill="#A78BFA" font-size="14">BUILDING SINCE 2019</text>
   </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" text-anchor="middle">
-    <circle cx="1028" cy="180" r="29" fill="#0F2233" stroke="#22D3EE" stroke-width="2" filter="url(#glow)"/>
-    <text x="1028" y="186" fill="#F8FAFC" font-size="17" font-weight="700">BUILD</text>
+    <circle cx="1015" cy="180" r="105" fill="#020617" fill-opacity="0.3" stroke="#38BDF8" stroke-opacity="0.12" stroke-dasharray="4 9"/>
+    <circle cx="1015" cy="180" r="64" fill="#0F172A" fill-opacity="0.38" stroke="#8B5CF6" stroke-opacity="0.28"/>
+    <circle cx="1015" cy="180" r="31" fill="#0F2236" stroke="#67E8F9" stroke-width="2" filter="url(#nodeGlow)"/>
+    <text x="1015" y="186" fill="#F8FAFC" font-size="16" font-weight="700">BUILD</text>
 
-    <g>
-      <line x1="1028" y1="102" x2="1028" y2="149" stroke="#22D3EE" stroke-opacity="0.55"/>
-      <rect x="979" y="73" width="98" height="30" rx="15" fill="#102536" stroke="#22D3EE" stroke-opacity="0.65"/>
-      <text x="1028" y="93" fill="#A5F3FC" font-size="13">PRODUCT</text>
-    </g>
-    <g>
-      <line x1="1095" y1="141" x2="1053" y2="165" stroke="#84CC16" stroke-opacity="0.55"/>
-      <rect x="1094" y="112" width="76" height="30" rx="15" fill="#172414" stroke="#84CC16" stroke-opacity="0.65"/>
-      <text x="1132" y="132" fill="#D9F99D" font-size="13">APPS</text>
-    </g>
-    <g>
-      <line x1="1095" y1="219" x2="1053" y2="195" stroke="#F97316" stroke-opacity="0.55"/>
-      <rect x="1094" y="218" width="76" height="30" rx="15" fill="#29180F" stroke="#F97316" stroke-opacity="0.65"/>
-      <text x="1132" y="238" fill="#FED7AA" font-size="13">DATA</text>
-    </g>
-    <g>
-      <line x1="961" y1="219" x2="1003" y2="195" stroke="#A78BFA" stroke-opacity="0.55"/>
-      <rect x="884" y="218" width="76" height="30" rx="15" fill="#20172E" stroke="#A78BFA" stroke-opacity="0.65"/>
-      <text x="922" y="238" fill="#DDD6FE" font-size="13">AI</text>
-    </g>
-    <g>
-      <line x1="961" y1="141" x2="1003" y2="165" stroke="#60A5FA" stroke-opacity="0.55"/>
-      <rect x="868" y="112" width="92" height="30" rx="15" fill="#121F35" stroke="#60A5FA" stroke-opacity="0.65"/>
-      <text x="914" y="132" fill="#BFDBFE" font-size="13">SYSTEMS</text>
-    </g>
+    <line x1="1015" y1="104" x2="1015" y2="149" stroke="#38BDF8" stroke-opacity="0.6"/>
+    <rect x="965" y="74" width="100" height="30" rx="15" fill="#082F49" fill-opacity="0.8" stroke="#38BDF8" stroke-opacity="0.8"/>
+    <text x="1015" y="94" fill="#BAE6FD" font-size="12">PRODUCT</text>
+
+    <line x1="1082" y1="142" x2="1041" y2="165" stroke="#67E8F9" stroke-opacity="0.55"/>
+    <rect x="1082" y="112" width="82" height="30" rx="15" fill="#083344" fill-opacity="0.8" stroke="#22D3EE" stroke-opacity="0.75"/>
+    <text x="1123" y="132" fill="#CFFAFE" font-size="12">MOBILE</text>
+
+    <line x1="1082" y1="218" x2="1041" y2="195" stroke="#A78BFA" stroke-opacity="0.6"/>
+    <rect x="1082" y="218" width="82" height="30" rx="15" fill="#2E1065" fill-opacity="0.7" stroke="#8B5CF6" stroke-opacity="0.8"/>
+    <text x="1123" y="238" fill="#DDD6FE" font-size="12">SYSTEMS</text>
+
+    <line x1="948" y1="218" x2="989" y2="195" stroke="#C4B5FD" stroke-opacity="0.55"/>
+    <rect x="877" y="218" width="70" height="30" rx="15" fill="#2E1065" fill-opacity="0.7" stroke="#A78BFA" stroke-opacity="0.8"/>
+    <text x="912" y="238" fill="#EDE9FE" font-size="12">AI</text>
+
+    <line x1="948" y1="142" x2="989" y2="165" stroke="#38BDF8" stroke-opacity="0.55"/>
+    <rect x="859" y="112" width="88" height="30" rx="15" fill="#082F49" fill-opacity="0.8" stroke="#38BDF8" stroke-opacity="0.75"/>
+    <text x="903" y="132" fill="#BAE6FD" font-size="12">DESIGN</text>
   </g>
-
-  <path d="M119 286H791" stroke="#26364D" stroke-dasharray="3 9"/>
 </svg>
